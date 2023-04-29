@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#Header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inicial{
+    display: flex;
+    
+    
+    
+}
+
+.logo, .companyName{
+    
+    width: 90px;
+    height: 90px;
+    text-align: center;    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+h1{
+    text-align: center;
+}

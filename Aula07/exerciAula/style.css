@@ -1,0 +1,48 @@
+*{
+    font-size: 20px;
+}
+
+h1{
+    background-color: brown;
+    width: 50vw;
+    height: 10vh;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container{
+    background-color: black;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 50vh;
+    height: 50vh;
+    
+}
+
+.item{
+
+    height: 100px;
+    width: 100px;
+    
+}
+
+#item01{
+    background-color: red;
+    float: left;
+
+  
+
+}
+
+#item02{
+    background-color: white;
+    float: right;
+    
+
+}
