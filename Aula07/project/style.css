@@ -1,33 +1,33 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
-#Header{
-    display: flex;
-    justify-content: space-between;
+#Header {
+  display: flex;
+  justify-content: space-between;
 }
 
-.inicial{
-    display: flex;
-    
-    
-    
+.inicial {
+  display: flex;
 }
 
-.logo, .companyName{
-    
-    width: 90px;
-    height: 90px;
-    text-align: center;    
+.logo,
+.companyName {
+  width: 90px;
+  height: 90px;
+  text-align: center;
 }
 
-ul{
-    display: flex;
-    list-style: none;
-    
+ul {
+  display: flex;
+  list-style: none;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 300px;
 }
