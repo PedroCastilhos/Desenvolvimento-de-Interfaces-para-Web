@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;  
+    background-image: url(./img/img-hero-header.jpg);
+    background-size: cover;
+
+}
+
+#logo{
+    width: 100px;
+}
+
+nav{
+    display: flex;
+}
+
+#menus{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    list-style: none;
+
+}
+
+li{
+    margin: 30px 40px;
+
+}
