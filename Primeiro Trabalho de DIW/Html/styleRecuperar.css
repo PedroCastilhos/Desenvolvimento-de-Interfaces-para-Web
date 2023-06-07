@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Manrope&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #222;
+  flex-direction: column;
+  position: relative;
+  /* overflow: hidden;  Ocultar barras de rolagem */
+}
+
+.container {
+  background-color: #444;
+  width: 630px;
+  height: 730px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.paragrafo {
+  margin: 20px 0px;
+  font-size: 1.2rem;
+  font-family: 'Kanit', sans-serif;
+}
+
+img {
+  width: 500px;
+  border-radius: 25px;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  background-color: #fff;
+  border: 0px;
+  transition: color 10.3s;
+}
+
+button:hover {
+  background-color: rgb(218, 218, 218);
+  transition: color 10.3s;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+}

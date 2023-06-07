@@ -8,13 +8,16 @@ body {
   padding: 0;
   margin: 0;
   background-color: #444;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #login {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  flex: 1;
   height: 100vh;
 
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -129,4 +132,20 @@ a {
 a:hover {
   color: #b19843;
   transition: color 0.3s;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #b19843;
+  text-decoration: none;
 }
