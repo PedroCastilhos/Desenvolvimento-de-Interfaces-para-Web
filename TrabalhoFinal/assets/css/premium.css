@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Frank+Ruhl+Libre&family=Inter:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  font-size: 1rem;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+}
+
+#Top {
+  height: 10vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .image-container {
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #b19843;
+}
+
+.premium {
+  color: #b19843;
+}
+
+#celular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 4rem;
+}
+
+#celular div {
+  margin: 0px 100px;
+}
+
+#Top img {
+  width: 100px;
+}
